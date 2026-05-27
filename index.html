@@ -29,10 +29,11 @@
         <h2>Interactive Dashboard</h2>
         <!-- TABLEAU EMBED START -->
 
-        <div class='tableauPlaceholder' id='viz1779903754411' style='position: relative'>
+    <div class='tableauPlaceholder' id='viz1779904304360' style='position: relative'>
+
             <noscript>
                 <a href='#'>
-                    <img alt='ATS Results (Season)'
+                    <img alt='NBA ATS Visualization'
                     src='https://public.tableau.com/static/images/NB/NBA_ATS_Results/Sheet1/1_rss.png'
                     style='border: none' />
                 </a>
@@ -41,30 +42,22 @@
             <object class='tableauViz' style='display:none;'>
 
                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-
                 <param name='embed_code_version' value='3' />
-
                 <param name='site_root' value='' />
 
                 <param name='name' value='NBA_ATS_Results/Sheet1' />
 
                 <param name='tabs' value='no' />
-
                 <param name='toolbar' value='yes' />
 
                 <param name='static_image'
-                value='https://public.tableau.com/static/images/NB/NBA_ATS_Results/Sheet1/1.png' />
+                    value='https://public.tableau.com/static/images/NB/NBA_ATS_Results/Sheet1/1.png' />
 
                 <param name='animate_transition' value='yes' />
-
                 <param name='display_static_image' value='yes' />
-
                 <param name='display_spinner' value='yes' />
-
                 <param name='display_overlay' value='yes' />
-
                 <param name='display_count' value='yes' />
-
                 <param name='language' value='en-US' />
 
             </object>
@@ -72,16 +65,14 @@
 
         <script type='text/javascript'>
 
-            var divElement = document.getElementById('viz1779903754411');
-
+            var divElement = document.getElementById('viz1779904304360');
             var vizElement = divElement.getElementsByTagName('object')[0];
 
-            vizElement.style.width='100%';
-
-            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+            // RESPONSIVE FIX (clean version)
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
 
             var scriptElement = document.createElement('script');
-
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
